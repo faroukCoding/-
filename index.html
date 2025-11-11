@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al-Fajr International School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'cairo': ['Cairo', 'sans-serif'],
+              'amiri': ['Amiri', 'serif'],
+            },
+            colors: {
+              'brand-blue': '#0D244F',
+              'brand-gold': '#C89B3F',
+              'brand-light': '#F8F4E9',
+              'brand-gray': '#4A5568',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .text-3d-hero {
+        text-shadow: 
+          0px 1px 0px rgba(0,0,0,0.2), 
+          0px 2px 0px rgba(0,0,0,0.2), 
+          0px 3px 0px rgba(0,0,0,0.2), 
+          0px 4px 5px rgba(0,0,0,0.4),
+          0 0 5px rgba(255, 255, 255, 0.1),
+          0 0 10px rgba(200, 155, 63, 0.1);
+      }
+      .text-3d-title {
+          color: #0D244F;
+          text-shadow: 
+              1px 1px 1px rgba(255, 255, 255, 0.7), 
+              -1px -1px 1px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
